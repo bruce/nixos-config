@@ -1,0 +1,5 @@
+{ config, pkgs, ... }:
+{
+  systemPackages = with pkgs;
+  [ emacs ];
+}
