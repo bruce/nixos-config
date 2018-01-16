@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 {
-  systemPackages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     git
   ];
 }
