@@ -2,5 +2,5 @@
 {
   systemPackages = with pkgs; [
     git
-  ]
+  ];
 }
