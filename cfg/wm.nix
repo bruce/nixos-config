@@ -8,12 +8,12 @@
     windowManager.default = "xmonad";
     desktopManager.xterm.enable = false;
     desktopManager.default = "none";
-    displayManager = {
-      slim = {
-	      enable = true;
-	      defaultUser = "demo";
-      };
-    };
+    # displayManager = {
+    #   slim = {
+	  #     enable = true;
+	  #     defaultUser = "demo";
+    #   };
+    # };
   };
 
   environment.systemPackages = with pkgs; [
