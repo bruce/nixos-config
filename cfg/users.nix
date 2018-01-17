@@ -1,7 +1,5 @@
 { config, pkgs, ... }:
 {
-  # Wheel
-  users.extraGroups.wheel.gid = 0;
   # Bruce
   users.extraUsers.bruce = {
     createHome = true;
