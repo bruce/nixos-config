@@ -7,8 +7,7 @@
     ./scm.nix
     ./time.nix
     ./langs/c.nix
-    ./langs/haskell.nix
-    # ./wm.nix
+    ./wm.nix
     ./users.nix
   ];
 

@@ -17,8 +17,11 @@
   };
 
   environment.systemPackages = with pkgs; [
-    # Window Manager
-
+    # Xmonad
+    haskellPackages.xmobar
+    haskellPackages.xmonad
+    haskellPackages.xmonad-contrib
+    haskellPackages.xmonad-extras
     # System Tray
     trayer
     # Application Launcher
