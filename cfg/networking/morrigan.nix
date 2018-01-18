@@ -1,0 +1,5 @@
+{ config, pkgs, ... }:
+{
+  networking.hostName = "morrigan";
+  networking.networkmanager.enable = true;
+}
