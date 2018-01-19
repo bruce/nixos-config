@@ -10,6 +10,7 @@
     ./langs/c.nix
     ./desktop.nix
     ./users.nix
+    ./web.nix
   ];
 
 }
