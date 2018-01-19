@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ../cfg/base.nix
+    ../base.nix
     ./morrigan/boot.nix
     ./morrigan/networking.nix
     ./morrigan/version.nix
