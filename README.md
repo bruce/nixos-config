@@ -10,5 +10,5 @@ NixOS configuration for my machines.
 sudo mv /etc/nixos /etc/nixos.bak
 sudo git clone https://github.com/bruce/nixos-config /etc/nixos
 sudo cp /etc/nixos.bak/hardware-configuration.nix /etc/nixos/
-sudo ln -sr /etc/nixos/machines/$MACHINE.nix /etc/nixos/configuration.nix
+sudo ln -sr /etc/nixos/cfg/machines/$MACHINE.nix /etc/nixos/configuration.nix
 ```
