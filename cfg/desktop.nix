@@ -17,7 +17,6 @@
 
   environment.systemPackages = with pkgs; [
     dmenu
-    xterm
     haskellPackages.xmobar
     haskellPackages.xmonad
     haskellPackages.xmonad-contrib
