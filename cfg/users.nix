@@ -5,7 +5,7 @@
     createHome = true;
     home = "/home/bruce";
     description = "Bruce Williams";
-    extraGroups = [ "wheel" "disk" "vboxusers" "cdrom" ];
+    extraGroups = [ "wheel" "disk" "vboxusers" "cdrom" "networkmanager" ];
     isSystemUser = false;
     useDefaultShell = true;
   };
