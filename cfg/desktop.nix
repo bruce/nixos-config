@@ -21,6 +21,7 @@
   environment.systemPackages = with pkgs; [
     rxvt_unicode
     dmenu
+    trayer
     haskellPackages.xmobar
   ];
 
