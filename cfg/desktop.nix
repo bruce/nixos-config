@@ -3,7 +3,10 @@
 {
   services.xserver = {
     enable = true;
-    windowManager.xmonad.enable = true;
+    windowManager.xmonad = {
+      enable = true;
+      enableContribAndExtras = true;
+    };
     windowManager.default = "xmonad";
     desktopManager.xterm.enable = true;
     desktopManager.default = "none";
@@ -19,9 +22,6 @@
     rxvt_unicode
     dmenu
     haskellPackages.xmobar
-    haskellPackages.xmonad
-    haskellPackages.xmonad-contrib
-    haskellPackages.xmonad-extras
   ];
 
   systemd.user.services."urxvtd" = {
