@@ -22,6 +22,8 @@
     rxvt_unicode
     dmenu
     trayer
+    xcompmgr
+    feh
     haskellPackages.xmobar
   ];
 
