@@ -15,6 +15,9 @@
 	      enable = true;
 	      defaultUser = "bruce";
       };
+      sessionCommands = ''
+        xcompmgr -c &
+      '';
     };
   };
 
