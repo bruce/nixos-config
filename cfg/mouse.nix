@@ -1,4 +1,7 @@
 { config, pkgs, ... }:
 {
-  services.xserver.libinput.enable = true;
+  services.xserver.libinput = {
+    enable = true;
+    naturalScrolling = true;
+  };
 }
