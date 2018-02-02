@@ -10,6 +10,7 @@
     ./desktop.nix
     ./users.nix
     ./web.nix
+    ./bluetooth.nix
   ];
 
 }
