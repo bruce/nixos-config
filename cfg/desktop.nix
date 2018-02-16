@@ -11,7 +11,10 @@
     desktopManager.xterm.enable = true;
     desktopManager.default = "none";
     displayManager = {
-      lightdm.enable = true;
+      slim = {
+        enable = true;
+        defaultUser = "bruce";
+      };
       sessionCommands = ''
         xcompmgr -c &
       '';
