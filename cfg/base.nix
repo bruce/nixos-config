@@ -11,6 +11,7 @@
     ./users.nix
     ./web.nix
     ./bluetooth.nix
+    ./databases.nix
   ];
 
 }
