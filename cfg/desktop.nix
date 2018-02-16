@@ -2,13 +2,9 @@
 
 {
 
- services.xserver = {
+  services.xserver = {
     enable = true;
-    windowManager.i3 = {
-      enable = true;
-    };
-    windowManager.default = "i3";
-    desktopManager.xterm.enable = true;
+    # home-manager xsession handles windowManager
     desktopManager.default = "none";
     displayManager = {
       slim = {
@@ -20,6 +16,7 @@
       '';
     };
   };
+
 
   environment.systemPackages = with pkgs; [
     rxvt_unicode
