@@ -1,20 +1,17 @@
 { config, lib, pkgs, ... }:
 
 {
-  services.xserver = {
+
+ services.xserver = {
     enable = true;
-    windowManager.xmonad = {
+    windowManager.i3 = {
       enable = true;
-      enableContribAndExtras = true;
     };
-    windowManager.default = "xmonad";
+    windowManager.default = "i3";
     desktopManager.xterm.enable = true;
     desktopManager.default = "none";
     displayManager = {
-      slim = {
-	      enable = true;
-	      defaultUser = "bruce";
-      };
+      lightdm.enable = true;
       sessionCommands = ''
         xcompmgr -c &
       '';
