@@ -28,7 +28,7 @@
     font-awesome-ttf
     noto-fonts
     material-icons
-    # terminus-font
+    terminus_font
   ];
 
   systemd.user.services."urxvtd" = {
