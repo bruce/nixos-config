@@ -25,6 +25,10 @@
     xcompmgr
     feh
     haskellPackages.xmobar
+    font-awesome-ttf
+    noto-fonts
+    material-icons
+    terminus-font
   ];
 
   systemd.user.services."urxvtd" = {
