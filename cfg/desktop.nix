@@ -2,6 +2,8 @@
 
 {
 
+  hardware.pulseaudio.enable = true;
+
   services.xserver = {
     enable = true;
     # home-manager xsession handles windowManager
@@ -21,7 +23,6 @@
   environment.systemPackages = with pkgs; [
     rxvt_unicode
     dmenu
-    trayer
     xcompmgr
     feh
     haskellPackages.xmobar
