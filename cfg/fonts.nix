@@ -7,6 +7,7 @@
     material-icons
     terminus_font
     terminus_font_ttf
+    siji
   ];
 
   environment.systemPackages = with pkgs; [
