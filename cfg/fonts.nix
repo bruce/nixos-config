@@ -9,4 +9,8 @@
     terminus_font_ttf
   ];
 
+  environment.systemPackages = with pkgs; [
+    gnome3.gucharmap
+  ];
+
 }
