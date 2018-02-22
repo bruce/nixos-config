@@ -12,6 +12,8 @@
     ./web.nix
     ./bluetooth.nix
     ./databases.nix
+    ./fonts.nix
+    ./productivity.nix
   ];
 
 }

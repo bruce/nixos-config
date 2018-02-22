@@ -1,19 +1,17 @@
 { config, lib, pkgs, ... }:
 
 {
+
+  hardware.pulseaudio.enable = true;
+
   services.xserver = {
     enable = true;
-    windowManager.xmonad = {
-      enable = true;
-      enableContribAndExtras = true;
-    };
-    windowManager.default = "xmonad";
-    desktopManager.xterm.enable = true;
+    # home-manager xsession handles windowManager
     desktopManager.default = "none";
     displayManager = {
       slim = {
-	      enable = true;
-	      defaultUser = "bruce";
+        enable = true;
+        defaultUser = "bruce";
       };
       sessionCommands = ''
         xcompmgr -c &
@@ -21,10 +19,10 @@
     };
   };
 
+
   environment.systemPackages = with pkgs; [
     rxvt_unicode
     dmenu
-    trayer
     xcompmgr
     feh
     haskellPackages.xmobar
