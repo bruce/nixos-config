@@ -25,7 +25,7 @@
     dmenu
     xcompmgr
     feh
-    xbacklight
+    xlibs.xbacklight
     haskellPackages.xmobar
   ];
 
