@@ -3,7 +3,7 @@
 
   virtualisation.docker.enable = true;
 
-  environment.sytemPackages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     docker_compose
   ];
 
