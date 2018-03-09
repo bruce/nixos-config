@@ -13,7 +13,7 @@
     ./bluetooth.nix
     ./databases.nix
     ./fonts.nix
-    ./virtualization.nix
+    ./virtualisation.nix
     ./productivity.nix
   ];
 
