@@ -7,6 +7,7 @@
     ./scm.nix
     ./time.nix
     ./langs/c.nix
+    ./langs/ocaml.nix
     ./desktop.nix
     ./users.nix
     ./web.nix
