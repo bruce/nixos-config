@@ -1,8 +1,6 @@
 { config, pkgs, ... }:
 {
 
-  nix.package = pkgs.nixStable2;
-
   imports = [
     ../hardware-configuration.nix
     ./keyboard.nix
