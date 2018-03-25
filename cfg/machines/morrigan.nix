@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 {
 
+  nix.package = pkgs.nixStable2;
+
   nixpkgs.config.allowUnfree = true;
 
   imports = [
