@@ -3,6 +3,7 @@
 
   imports = [
     ../hardware-configuration.nix
+    ./shell.nix
     ./keyboard.nix
     ./mouse.nix
     ./scm.nix
