@@ -10,6 +10,7 @@
     ./time.nix
     ./langs/c.nix
     ./langs/ocaml.nix
+    ./langs/dotnet.nix
     ./desktop.nix
     ./users.nix
     ./web.nix
